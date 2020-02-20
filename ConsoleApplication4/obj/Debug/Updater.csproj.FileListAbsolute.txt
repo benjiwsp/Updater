@@ -1,0 +1,20 @@
+C:\Users\benji\documents\visual studio 2013\Projects\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+C:\Users\benji\documents\visual studio 2013\Projects\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+C:\Users\benji\documents\visual studio 2013\Projects\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+C:\Users\benji\documents\visual studio 2013\Projects\ConsoleApplication4\ConsoleApplication4\bin\Debug\MySql.Data.dll
+C:\Users\benji\documents\visual studio 2013\Projects\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+C:\Users\benji\documents\visual studio 2013\Projects\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
+C:\Users\benji\Documents\Visual Studio 2013\Projects\updater\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+C:\Users\benji\Documents\Visual Studio 2013\Projects\updater\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+C:\Users\benji\Documents\Visual Studio 2013\Projects\updater\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
+C:\Users\benji\Documents\Visual Studio 2013\Projects\updater\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+C:\Users\benji\Documents\Visual Studio 2013\Projects\updater\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+C:\Users\benji\Documents\Visual Studio 2013\Projects\updater\ConsoleApplication4\bin\Debug\MySql.Data.dll
+C:\Users\benji\Documents\Visual Studio 2013\Projects\updater\ConsoleApplication4\obj\Debug\Updater.csprojResolveAssemblyReference.cache
+E:\Development\updater\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+E:\Development\updater\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+E:\Development\updater\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
+E:\Development\updater\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+E:\Development\updater\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+E:\Development\updater\ConsoleApplication4\bin\Debug\MySql.Data.dll
+E:\Development\updater\ConsoleApplication4\obj\Debug\Updater.csprojResolveAssemblyReference.cache
