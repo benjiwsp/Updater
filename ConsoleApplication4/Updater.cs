@@ -15,7 +15,7 @@ namespace Updater
     class Updater
     {
 
-        static string connStr = ConfigurationManager.AppSettings["my_conn"];
+        static string connStr = "Server=mydbinstance.c7pvwaixaizr.ap-southeast-1.rds.amazonaws.com;Port=3306;Database=CashPOSDB;Uid=root;Pwd=SFAdmin123;charset=utf8; allow zero datetime=true";
         static MySqlCommand myCommand;
         static MySqlConnection myConnection = new MySqlConnection(connStr);
         static MySqlDataReader rdr;
@@ -92,8 +92,8 @@ namespace Updater
         [STAThread]
         static void Main(string[] args)
         {
-            downloadUpdate();
-            //  uploadNewVersion();
+           downloadUpdate();
+              //uploadNewVersion();
         }
         static void downloadUpdate()
         {
@@ -108,13 +108,11 @@ namespace Updater
                 deleteZip(dlZip);
                 Console.WriteLine("Finished update...");
                 run(POS);
-                Console.Read();
             }
             else
             {
                 Console.WriteLine("There is no updates...");
                 run(POS);
-                Console.Read();
             }
         }
 
@@ -209,11 +207,18 @@ namespace Updater
             string fileName = zipPath;
             dlZip = fileName;
             string u = "SELECT * from CashPOSDB.ProgramFile where ID = '1'";
+
             MySqlCommand cmd = new MySqlCommand(u, myConnection);
             MySqlDataReader myData;
             try
             {
+                Console.WriteLine("connecting to server...");
+
                 Connect();
+                Console.WriteLine("connected to server...");
+                Console.WriteLine("executing ...");
+                cmd.CommandTimeout = 100;
+
                 myData = cmd.ExecuteReader();
                 Console.WriteLine("...");
                 if (!myData.HasRows)
@@ -236,6 +241,7 @@ namespace Updater
             {
                 MessageBox.Show("Error " + ex.Number + " has occurred: " + ex.Message,
                     "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Console.Read();
             }
             return fileName;
         }

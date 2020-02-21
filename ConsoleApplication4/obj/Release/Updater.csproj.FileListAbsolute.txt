@@ -1,0 +1,6 @@
+E:\Development\updater\ConsoleApplication4\bin\Release\ConsoleApplication4.exe.config
+E:\Development\updater\ConsoleApplication4\bin\Release\ConsoleApplication4.exe
+E:\Development\updater\ConsoleApplication4\bin\Release\ConsoleApplication4.pdb
+E:\Development\updater\ConsoleApplication4\bin\Release\MySql.Data.dll
+E:\Development\updater\ConsoleApplication4\obj\Release\ConsoleApplication4.exe
+E:\Development\updater\ConsoleApplication4\obj\Release\ConsoleApplication4.pdb
