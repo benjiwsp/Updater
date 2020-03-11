@@ -92,8 +92,9 @@ namespace Updater
         [STAThread]
         static void Main(string[] args)
         {
-           downloadUpdate();
-              //uploadNewVersion();
+            //downloadUpdate();
+            uploadNewVersion();
+          //  Console.Read();
         }
         static void downloadUpdate()
         {
